@@ -1,0 +1,462 @@
+/* body */
+body {
+  background-image: url("../images/pizzal.jpg");
+  background-size: cover; }
+
+header {
+  width: 100%;
+  top: 0;
+  float: right;
+  position: fixed;
+  overflow: hidden;
+  background-color: #737373;
+  margin-left: 0px;
+  margin-right: 0px; }
+
+#phone .num-desktop {
+  display: block;
+  color: red;
+  font-size: 30px;
+  margin-left: 80%; }
+
+#phone .num-mobile {
+  display: none; }
+
+.main-nav {
+  list-style: none; }
+  .main-nav li {
+    display: inline-block; }
+    .main-nav li a {
+      font-family: consolas;
+      border: 2px solid black;
+      border-radius: 15px;
+      color: white;
+      margin-bottom: 20px;
+      text-decoration: inherit;
+      padding: 10px 27px;
+      font-size: 25px;
+      margin-top: 0px; }
+  .main-nav li.active a {
+    background-color: #ea0707;
+    border: 1px white; }
+
+.main-nav li a:hover {
+  background-color: #ea0707;
+  border: 1px white; }
+
+.logo img {
+  width: 150px;
+  height: auto;
+  float: left; }
+
+/* end body */
+/* index */
+.heading {
+  margin-top: 0px;
+  text-align: center; }
+  .heading #head1 {
+    font-size: 40px;
+    margin-top: 170px;
+    color: #0014ff;
+    font-family: fantasy;
+    text-decoration: underline black; }
+  .heading #head2 {
+    font-size: 25px;
+    margin-top: 0px;
+    color: #073486;
+    font-family: cursive;
+    border: dashed green; }
+
+#txt {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  font-style: oblique; }
+
+#okotoksvideo {
+  height: 500px;
+  width: 100%;
+  border-radius: 50px;
+  position: inherit;
+  margin-left: 0px; }
+
+#paragraph {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+  font-style: oblique;
+  width: 100%; }
+
+#aboutus {
+  font-size: 20px;
+  color: blue;
+  text-align: center;
+  font-family: cursive;
+  width: 100%;
+  font-style: oblique;
+  font-weight: bold; }
+
+.links {
+  background-color: #ffc3d0;
+  /* Green background */
+  border: 2px solid black;
+  /* Green border */
+  color: black;
+  /* White text */
+  padding: 10px 24px;
+  /* Some padding */
+  cursor: pointer;
+  /* Pointer/hand icon */
+  margin-left: 0px;
+  font-size: 30px;
+  text-align: center;
+  margin: 0px 0px; }
+
+.okotoksimg img {
+  width: 100%;
+  height: 300px;
+  margin-top: 10px; }
+
+/* end index page */
+/* Menu  page*/
+#menubg {
+  background-image: url("../images/k1.jpg");
+  background-size: cover no-repeat; }
+
+#menu-header {
+  color: red;
+  text-align: center;
+  text-decoration: underline; }
+
+.menu1 {
+  max-width: 900px;
+  margin: 20px auto 10px;
+  margin-top: 150px;
+  padding: 5px 10px; }
+
+#table01 tr {
+  font-size: 20px;
+  font-style: italic;
+  color: #27F9FE; }
+  #table01 tr td {
+    font-size: 17px;
+    font-family: monospace;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    text-align: left; }
+  #table01 tr span {
+    font-weight: bold;
+    color: red;
+    text-align: left; }
+
+tr:first-child td {
+  font-size: 13px;
+  text-align: center; }
+
+td h2 {
+  font-weight: bold;
+  color: #9601FE;
+  text-align: left;
+  font-size: 15px;
+  font-family: inherit;
+  margin-bottom: 0px;
+  text-decoration: underline; }
+
+td h3 {
+  font-weight: bolder;
+  color: #5B0BE5;
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 25px;
+  font-family: monospace; }
+
+td h4 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold; }
+
+table tr td img {
+  max-width: 70px;
+  margin-right: 10px; }
+
+/* End Menu Page */
+/* Reviews Page */
+#reviewbg {
+  background-image: url("../images/review.jpg");
+  background-size: cover; }
+
+#reviewtitle {
+  color: #230AE5;
+  text-align: center;
+  margin-top: 180px;
+  text-decoration: underline; }
+
+.feedbackform {
+  margin-top: 50px;
+  text-align: center;
+  transition: all 6s ease-in-out; }
+
+.feedback-control {
+  width: 800px;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid black;
+  color: blue;
+  font-size: 18px;
+  margin-bottom: 40px; }
+
+input {
+  height: 45px; }
+
+.btn-active {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #0bbfbf;
+  cursor: pointer; }
+
+.feedbacktext-submit {
+  background: #f1f197;
+  border-color: #1e1a2d;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px; }
+
+.submit:hover {
+  background-color: purple;
+  cursor: pointer; }
+
+/* End Reviews */
+/* Location */
+#okotoks-ranked {
+  margin-top: 200px;
+  text-align: center;
+  color: black;
+  border: dashed red;
+  font-family: cursive; }
+
+/* Create four equal columns that floats next to each other */
+#locationbg {
+  background-image: url("../images/pizzal.jpg");
+  background-size: cover; }
+
+.location-about {
+  top: 0px; }
+  .location-about #column1 {
+    float: left;
+    width: 33.3%; }
+    .location-about #column1 #telephonelogo {
+      color: black;
+      margin-top: 22px;
+      font-size: 70px;
+      padding: 0px;
+      margin-left: 155px; }
+    .location-about #column1 #contactid {
+      text-align: center;
+      font-size: 25px;
+      font-family: fantasy;
+      color: #0014ff; }
+  .location-about #column2 {
+    float: left;
+    width: 33.3%; }
+    .location-about #column2 img {
+      width: 236px;
+      height: 200px;
+      margin-left: 89px;
+      margin-top: -26px; }
+    .location-about #column2 #hoursid {
+      text-align: center;
+      font-size: 25px;
+      font-family: inherit;
+      color: #FE7016;
+      margin-bottom: 10px;
+      margin-top: -43px;
+      padding: 18px; }
+      .location-about #column2 #hoursid span {
+        color: blue;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: -23px; }
+  .location-about #column3 {
+    float: left;
+    width: 33.3%; }
+    .location-about #column3 img {
+      width: 93px;
+      height: 146px;
+      margin-left: 149px;
+      margin-top: 6px; }
+    .location-about #column3 #mapid {
+      text-align: center;
+      font-size: 25px;
+      font-family: fantasy;
+      color: #0014ff;
+      margin: 0px;
+      padding: 0px; }
+      .location-about #column3 #mapid iframe {
+        margin-top: 7px;
+        width: 360px;
+        height: 320px;
+        margin-left: 17px; }
+
+/* Clear floats */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+#days {
+  text-align: center;
+  color: green;
+  font-size: 30px;
+  font-style: oblique; }
+
+/*end location*/
+/*orderonline*/
+.placeyourorder {
+  text-align: center;
+  margin-top: 180px;
+  margin-left: 30%;
+  color: black;
+  text-decoration: underline; }
+
+/* end orderonline*/
+/* footer*/
+#footerid {
+  padding: 2px;
+  font-size: 15px;
+  color: white;
+  background-color: #E81212;
+  border-top: 1px solid white;
+  text-align: center;
+  top: 0;
+  height: 60px;
+  left: 0; }
+
+/* end footer*/
+@media only screen and (max-width: 768px) {
+  /* for mobile phones only */
+  #fold .left-50, #fold .right-50 {
+    float: none; }
+  .main-nav li a {
+    border: none;
+    font-size: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    font-size: 15px; }
+    .main-nav li a li.active a {
+      border-radius: none; }
+  .heading {
+    margin-top: 120px; }
+    .heading #head1 {
+      font-size: 30px;
+      margin-top: 200px; }
+  .link {
+    width: 50%; }
+  .okotoksimg {
+    width: 450px; }
+  #txt {
+    font-size: 15px; }
+  #okotoksvideo {
+    height: 500px;
+    width: 450px;
+    margin-top: 0px; }
+  #aboutus {
+    width: 400px;
+    text-align: center; }
+  #menu-header {
+    margin-top: 80px;
+    font-size: 25px; }
+  #table01 tr {
+    font-size: 7px; }
+    #table01 tr td {
+      font-size: 9px;
+      margin: 5px;
+      padding: 5px; }
+    #table01 tr td h3 {
+      font-weight: lighter;
+      margin-bottom: 0px;
+      font-size: 9px; }
+    #table01 tr td h4 {
+      font-size: 9px;
+      font-weight: lighter; }
+    #table01 tr table tr td img {
+      max-width: 30px;
+      margin-right: 5px; }
+  #okotoks-ranked {
+    margin-top: 230px;
+    font-size: 20px; } }
+
+.location-about #column1 #telephonelogo {
+  margin-top: 22px;
+  font-size: 70px;
+  padding: 0px;
+  margin-left: 50px; }
+
+.location-about #column1 #contactid {
+  font-size: 15px; }
+
+.location-about #column2 {
+  float: left;
+  width: 33.3%; }
+  .location-about #column2 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 10px; }
+  .location-about #column2 #hoursid {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding: 25px; }
+    .location-about #column2 #hoursid span {
+      color: blue;
+      font-size: 10px;
+      margin-top: -30px; }
+
+.location-about #column3 {
+  float: left;
+  width: 33.3%; }
+  .location-about #column3 img {
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 20px; }
+  .location-about #column3 #mapid {
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px; }
+    .location-about #column3 #mapid iframe {
+      margin-top: 7px;
+      width: 130px;
+      height: 250px;
+      margin-left: 16px; }
+
+#reviewtitle {
+  font-size: 10px;
+  margin-top: 250px; }
+
+.placeyourorder {
+  margin-top: 250px;
+  margin-left: 20; }
+
+@media only screen and (max-width: 768px) {
+  /* for mobile phones only */
+  .feedback-control {
+    width: 230px; }
+  #phone .num-desktop {
+    display: none; }
+  #phone .num-mobile {
+    display: block;
+    color: red;
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 35px; } }
